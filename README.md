@@ -137,6 +137,7 @@ use winSCP to copy files
    and install
 4. add project name and provide ur credentials to it
 5. now add build step Execute shell in jenkins project config
+	
 	kubectl apply -f my-calc-deploymnet.yaml
 
 Save and build
@@ -145,10 +146,13 @@ u will get error while building docker
 
 
 now in jenkins machine run below 2 steps
+	
 	usermod -a -G docker jenkins
+	
 	chmod 664 /var/run/docker.sock
 
 and restart jenkins
+	
 	service jenkins restart
 
 and now run ur jenkins job
@@ -156,4 +160,5 @@ and now run ur jenkins job
 .......done..................
 
 u will see the ur image is the docker hub repo
+
 now u can reuse the image for any of ur project
