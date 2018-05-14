@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: my-calc-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: my-calc
+    spec:
+      containers:
+      - name: my-calc
+        image: maheshkharwadkar/my-calc
+        ports:
+        - containerPort: 5000
