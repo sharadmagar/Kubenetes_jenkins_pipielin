@@ -10,7 +10,7 @@ spec:
         app: my-calc
     spec:
       containers:
-      - name: my-calc
+      - name: mycal
         image: sharadmagar/mycal
         ports:
         - containerPort: 5000
