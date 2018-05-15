@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: my-calc
-        image: maheshkharwadkar/my-calc
+        image: sharadmagar/mycal
         ports:
         - containerPort: 5000
