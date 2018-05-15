@@ -133,6 +133,19 @@ use winSCP to copy files
 
 in git my-calc-deployment.yml add ur repo name like sharadmagar/mycal
 
+if get any error
+
+Unable to connect to the server: net/http: TLS handshake timeout
+
+Build step 'Execute shell' marked build as failure
+
+then run below commands on kubernetes machine
+
+sudo apt-get update
+
+sudo apt-get install swapspace
+
+
 1. now create new jenkins job freestyl project
 2. add git url to source code management
 3. add docker build plugin manage jenkins->jenkins plugins->cloudbee dcoker build nd deploy 
