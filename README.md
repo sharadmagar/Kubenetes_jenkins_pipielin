@@ -131,6 +131,8 @@ after this copy Home/.kube/config file to /var/lib/jenkins/.kube/
 
 use winSCP to copy files
 
+in git my-calc-deployment.yml add ur repo name like sharadmagar/mycal
+
 1. now create new jenkins job freestyl project
 2. add git url to source code management
 3. add docker build plugin manage jenkins->jenkins plugins->cloudbee dcoker build nd deploy 
