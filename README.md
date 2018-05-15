@@ -177,3 +177,9 @@ and now run ur jenkins job
 u will see the ur image is the docker hub repo
 
 now u can reuse the image for any of ur project
+
+to check the pod is running in the kubernetes cluster then go to master machine and run 
+
+kubectl get pods -----get pod list
+
+kubectl exec -it pod name /bin/bash     ------will go inside the pod container
